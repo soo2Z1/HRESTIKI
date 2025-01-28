@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+	background-image: url("https://wallpapers-clan.com/wp-content/uploads/2024/03/starfall-night-sky-mountains-aesthetic-gif-preview-desktop-wallpaper.gif"); 
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #66ccccaf;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    width: 320px;
+    height: 320px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #69696931;
+    border: 2px solid #4bd8d8ab;
+    color:lightblue;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
